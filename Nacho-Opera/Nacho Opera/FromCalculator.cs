@@ -139,12 +139,12 @@ namespace Nacho_Opera
                     case "x":
                         if (CE != 1)
                         {
-                            result = operacion.Multiplicar(fact1, fact2);
+                            result = fact2;
                             lblFactWrite.Text = "= " + Convert.ToString(result);
                         }
                         else
                         {
-                            result = fact2;
+                            result = operacion.Multiplicar(fact1, fact2);
                             lblFactWrite.Text = "= " + Convert.ToString(result);
                         }
                         
