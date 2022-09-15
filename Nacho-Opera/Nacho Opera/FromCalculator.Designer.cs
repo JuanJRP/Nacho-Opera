@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMenu));
             this.cmd7 = new System.Windows.Forms.Button();
             this.cmd8 = new System.Windows.Forms.Button();
             this.cmd9 = new System.Windows.Forms.Button();
@@ -299,7 +300,7 @@
             this.txtFactWrite.Enabled = false;
             this.txtFactWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFactWrite.ForeColor = System.Drawing.Color.White;
-            this.txtFactWrite.Location = new System.Drawing.Point(6, 111);
+            this.txtFactWrite.Location = new System.Drawing.Point(6, 84);
             this.txtFactWrite.Name = "txtFactWrite";
             this.txtFactWrite.ReadOnly = true;
             this.txtFactWrite.Size = new System.Drawing.Size(357, 31);
@@ -311,12 +312,12 @@
             this.txtFactHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.txtFactHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtFactHistory.Enabled = false;
-            this.txtFactHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFactHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFactHistory.ForeColor = System.Drawing.Color.White;
-            this.txtFactHistory.Location = new System.Drawing.Point(6, 58);
+            this.txtFactHistory.Location = new System.Drawing.Point(6, 31);
             this.txtFactHistory.Name = "txtFactHistory";
             this.txtFactHistory.ReadOnly = true;
-            this.txtFactHistory.Size = new System.Drawing.Size(357, 31);
+            this.txtFactHistory.Size = new System.Drawing.Size(357, 17);
             this.txtFactHistory.TabIndex = 17;
             this.txtFactHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -408,11 +409,13 @@
             this.Controls.Add(this.cmd9);
             this.Controls.Add(this.cmd8);
             this.Controls.Add(this.cmd7);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormMenu";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 

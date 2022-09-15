@@ -17,7 +17,7 @@ namespace Nacho_Opera
     {
         /*--------------------------------------Variables---------------------------------------------------------------------------*/
 
-        int equals = 0, CE = 0;
+        int equals = 0, CE = 0, Count = 0;
         double fact1 = 0, fact2 = 0, result;
         string operation = null;
 
@@ -25,23 +25,28 @@ namespace Nacho_Opera
 
         public void Fill(double Num)
         {
-            if(equals == 1)
+            if(Count != 16)
             {
-                txtFactHistory.Clear();
-                txtFactWrite.Clear();
-                fact1 = 0;
-                fact2 = 0;
-                equals = 0;
-                txtFactWrite.Text += Num;
-            }
-            else
-            {
-                txtFactWrite.Text += Num;
-                equals = 0;
+                Count += 1;
+                if (equals == 1)
+                {
+                    txtFactHistory.Clear();
+                    txtFactWrite.Clear();
+                    fact1 = 0;
+                    fact2 = 0;
+                    equals = 0;
+                    txtFactWrite.Text += Num;
+                }
+                else
+                {
+                    txtFactWrite.Text += Num;
+                    equals = 0;
+                }
             }
         }
         public void Operation(string tipe)
         {
+            Count = 0;
             if (txtFactWrite.Text != "")
             {
                 fact1 = Convert.ToDouble(txtFactWrite.Text);
@@ -185,9 +190,10 @@ namespace Nacho_Opera
         {
             if (equals == 0)
             {
-                txtFactHistory.Clear();
-                fact1 = 0;
+                txtFactWrite.Clear();
+                fact2 = 0;
                 CE = 1;
+                Count = 0;
             }
         }
 
@@ -198,6 +204,7 @@ namespace Nacho_Opera
                 if (equals == 0)
                 {
                     txtFactWrite.Text = txtFactWrite.Text.Substring(0, txtFactWrite.Text.Length - 1);
+                    Count -= 1;
                 }
             }
             else
@@ -224,6 +231,7 @@ namespace Nacho_Opera
             result = 0;
             operation = null;
             equals = 0;
+            Count = 0;
         }
     }
 }
