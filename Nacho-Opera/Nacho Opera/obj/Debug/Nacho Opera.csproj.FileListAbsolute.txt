@@ -12,7 +12,6 @@ C:\Users\jojan\Source\Repos\Nacho-Opera\Nacho Opera\Nacho Opera\obj\Debug\Nacho 
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\bin\Debug\Nacho Opera.exe.config
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\bin\Debug\Nacho Opera.exe
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\bin\Debug\Nacho Opera.pdb
-C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\bin\Debug\operaciones.dll
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.csproj.AssemblyReference.cache
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.csproj.SuggestedBindingRedirects.cache
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho_Opera.FormMenu.resources
@@ -22,3 +21,7 @@ C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.csproj.
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.csproj.CopyComplete
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.exe
 C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.pdb
+C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\bin\Debug\Nacho Opera.exe.manifest
+C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\bin\Debug\Nacho Opera.application
+C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.exe.manifest
+C:\Users\jojan\Desktop\asd\Nacho-Opera\Nacho Opera\obj\Debug\Nacho Opera.application
