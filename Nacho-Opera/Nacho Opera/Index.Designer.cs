@@ -28,216 +28,420 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.cmd7 = new System.Windows.Forms.Button();
+            this.cmd8 = new System.Windows.Forms.Button();
+            this.cmd9 = new System.Windows.Forms.Button();
+            this.cmdDivided = new System.Windows.Forms.Button();
+            this.cmdTimes = new System.Windows.Forms.Button();
+            this.cmd6 = new System.Windows.Forms.Button();
+            this.cmd5 = new System.Windows.Forms.Button();
+            this.cmd4 = new System.Windows.Forms.Button();
+            this.CmdPlus = new System.Windows.Forms.Button();
+            this.cmdEquals = new System.Windows.Forms.Button();
+            this.cmdPoint = new System.Windows.Forms.Button();
+            this.cmd0 = new System.Windows.Forms.Button();
+            this.cmdMinus = new System.Windows.Forms.Button();
+            this.cmd3 = new System.Windows.Forms.Button();
+            this.cmd2 = new System.Windows.Forms.Button();
+            this.cdm1 = new System.Windows.Forms.Button();
+            this.txtFactWrite = new System.Windows.Forms.TextBox();
+            this.txtFactHistory = new System.Windows.Forms.TextBox();
+            this.cmdInvert = new System.Windows.Forms.Button();
+            this.cmdDel = new System.Windows.Forms.Button();
+            this.cmdC = new System.Windows.Forms.Button();
+            this.cmdCE = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // cmd7
             // 
-            this.button1.Location = new System.Drawing.Point(2, 131);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 50);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.cmd7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd7.FlatAppearance.BorderSize = 0;
+            this.cmd7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd7.ForeColor = System.Drawing.Color.White;
+            this.cmd7.Location = new System.Drawing.Point(6, 237);
+            this.cmd7.Name = "cmd7";
+            this.cmd7.Size = new System.Drawing.Size(87, 50);
+            this.cmd7.TabIndex = 8;
+            this.cmd7.Text = "7";
+            this.cmd7.UseVisualStyleBackColor = false;
+            this.cmd7.Click += new System.EventHandler(this.cmd7_Click);
             // 
-            // button2
+            // cmd8
             // 
-            this.button2.Location = new System.Drawing.Point(92, 131);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(87, 50);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cmd8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd8.FlatAppearance.BorderSize = 0;
+            this.cmd8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd8.ForeColor = System.Drawing.Color.White;
+            this.cmd8.Location = new System.Drawing.Point(96, 237);
+            this.cmd8.Name = "cmd8";
+            this.cmd8.Size = new System.Drawing.Size(87, 50);
+            this.cmd8.TabIndex = 9;
+            this.cmd8.Text = "8";
+            this.cmd8.UseVisualStyleBackColor = false;
+            this.cmd8.Click += new System.EventHandler(this.cmd8_Click);
             // 
-            // button3
+            // cmd9
             // 
-            this.button3.Location = new System.Drawing.Point(183, 131);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(87, 50);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.cmd9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd9.FlatAppearance.BorderSize = 0;
+            this.cmd9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd9.ForeColor = System.Drawing.Color.White;
+            this.cmd9.Location = new System.Drawing.Point(187, 237);
+            this.cmd9.Name = "cmd9";
+            this.cmd9.Size = new System.Drawing.Size(87, 50);
+            this.cmd9.TabIndex = 10;
+            this.cmd9.Text = "9";
+            this.cmd9.UseVisualStyleBackColor = false;
+            this.cmd9.Click += new System.EventHandler(this.cmd9_Click);
             // 
-            // button4
+            // cmdDivided
             // 
-            this.button4.Location = new System.Drawing.Point(272, 131);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(87, 50);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.cmdDivided.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdDivided.FlatAppearance.BorderSize = 0;
+            this.cmdDivided.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdDivided.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdDivided.ForeColor = System.Drawing.Color.White;
+            this.cmdDivided.Location = new System.Drawing.Point(276, 237);
+            this.cmdDivided.Name = "cmdDivided";
+            this.cmdDivided.Size = new System.Drawing.Size(87, 50);
+            this.cmdDivided.TabIndex = 15;
+            this.cmdDivided.Text = "/";
+            this.cmdDivided.UseVisualStyleBackColor = false;
+            this.cmdDivided.Click += new System.EventHandler(this.cmdDivided_Click);
             // 
-            // button5
+            // cmdTimes
             // 
-            this.button5.Location = new System.Drawing.Point(272, 181);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(87, 50);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.cmdTimes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdTimes.FlatAppearance.BorderSize = 0;
+            this.cmdTimes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdTimes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdTimes.ForeColor = System.Drawing.Color.White;
+            this.cmdTimes.Location = new System.Drawing.Point(276, 287);
+            this.cmdTimes.Name = "cmdTimes";
+            this.cmdTimes.Size = new System.Drawing.Size(87, 50);
+            this.cmdTimes.TabIndex = 16;
+            this.cmdTimes.Text = "x";
+            this.cmdTimes.UseVisualStyleBackColor = false;
+            this.cmdTimes.Click += new System.EventHandler(this.cmdTimes_Click);
             // 
-            // button6
+            // cmd6
             // 
-            this.button6.Location = new System.Drawing.Point(183, 181);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(87, 50);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.cmd6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd6.FlatAppearance.BorderSize = 0;
+            this.cmd6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd6.ForeColor = System.Drawing.Color.White;
+            this.cmd6.Location = new System.Drawing.Point(187, 287);
+            this.cmd6.Name = "cmd6";
+            this.cmd6.Size = new System.Drawing.Size(87, 50);
+            this.cmd6.TabIndex = 7;
+            this.cmd6.Text = "6";
+            this.cmd6.UseVisualStyleBackColor = false;
+            this.cmd6.Click += new System.EventHandler(this.cmd6_Click);
             // 
-            // button7
+            // cmd5
             // 
-            this.button7.Location = new System.Drawing.Point(92, 181);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(87, 50);
-            this.button7.TabIndex = 5;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.cmd5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd5.FlatAppearance.BorderSize = 0;
+            this.cmd5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd5.ForeColor = System.Drawing.Color.White;
+            this.cmd5.Location = new System.Drawing.Point(96, 287);
+            this.cmd5.Name = "cmd5";
+            this.cmd5.Size = new System.Drawing.Size(87, 50);
+            this.cmd5.TabIndex = 6;
+            this.cmd5.Text = "5";
+            this.cmd5.UseVisualStyleBackColor = false;
+            this.cmd5.Click += new System.EventHandler(this.cmd5_Click);
             // 
-            // button8
+            // cmd4
             // 
-            this.button8.Location = new System.Drawing.Point(2, 181);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(87, 50);
-            this.button8.TabIndex = 4;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.cmd4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd4.FlatAppearance.BorderSize = 0;
+            this.cmd4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd4.ForeColor = System.Drawing.Color.White;
+            this.cmd4.Location = new System.Drawing.Point(6, 287);
+            this.cmd4.Name = "cmd4";
+            this.cmd4.Size = new System.Drawing.Size(87, 50);
+            this.cmd4.TabIndex = 5;
+            this.cmd4.Text = "4";
+            this.cmd4.UseVisualStyleBackColor = false;
+            this.cmd4.Click += new System.EventHandler(this.cmd4_Click);
             // 
-            // button9
+            // CmdPlus
             // 
-            this.button9.Location = new System.Drawing.Point(272, 282);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(87, 50);
-            this.button9.TabIndex = 15;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.CmdPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.CmdPlus.FlatAppearance.BorderSize = 0;
+            this.CmdPlus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.CmdPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CmdPlus.ForeColor = System.Drawing.Color.White;
+            this.CmdPlus.Location = new System.Drawing.Point(276, 388);
+            this.CmdPlus.Name = "CmdPlus";
+            this.CmdPlus.Size = new System.Drawing.Size(87, 50);
+            this.CmdPlus.TabIndex = 18;
+            this.CmdPlus.Text = "+";
+            this.CmdPlus.UseVisualStyleBackColor = false;
+            this.CmdPlus.Click += new System.EventHandler(this.CmdPlus_Click);
             // 
-            // button10
+            // cmdEquals
             // 
-            this.button10.Location = new System.Drawing.Point(183, 282);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(87, 50);
-            this.button10.TabIndex = 14;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.cmdEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdEquals.FlatAppearance.BorderSize = 0;
+            this.cmdEquals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdEquals.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdEquals.ForeColor = System.Drawing.Color.White;
+            this.cmdEquals.Location = new System.Drawing.Point(187, 388);
+            this.cmdEquals.Name = "cmdEquals";
+            this.cmdEquals.Size = new System.Drawing.Size(87, 50);
+            this.cmdEquals.TabIndex = 19;
+            this.cmdEquals.Text = "=";
+            this.cmdEquals.UseVisualStyleBackColor = false;
+            this.cmdEquals.Click += new System.EventHandler(this.cmdEquals_Click);
             // 
-            // button11
+            // cmdPoint
             // 
-            this.button11.Location = new System.Drawing.Point(92, 282);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(87, 50);
-            this.button11.TabIndex = 13;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.cmdPoint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdPoint.FlatAppearance.BorderSize = 0;
+            this.cmdPoint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdPoint.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdPoint.ForeColor = System.Drawing.Color.White;
+            this.cmdPoint.Location = new System.Drawing.Point(96, 388);
+            this.cmdPoint.Name = "cmdPoint";
+            this.cmdPoint.Size = new System.Drawing.Size(87, 50);
+            this.cmdPoint.TabIndex = 20;
+            this.cmdPoint.Text = ",";
+            this.cmdPoint.UseVisualStyleBackColor = false;
+            this.cmdPoint.Click += new System.EventHandler(this.cmdPoint_Click);
             // 
-            // button12
+            // cmd0
             // 
-            this.button12.Location = new System.Drawing.Point(2, 282);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(87, 50);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.cmd0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd0.FlatAppearance.BorderSize = 0;
+            this.cmd0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd0.ForeColor = System.Drawing.Color.White;
+            this.cmd0.Location = new System.Drawing.Point(6, 388);
+            this.cmd0.Name = "cmd0";
+            this.cmd0.Size = new System.Drawing.Size(87, 50);
+            this.cmd0.TabIndex = 1;
+            this.cmd0.Text = "0";
+            this.cmd0.UseVisualStyleBackColor = false;
+            this.cmd0.Click += new System.EventHandler(this.cmd0_Click);
             // 
-            // button13
+            // cmdMinus
             // 
-            this.button13.Location = new System.Drawing.Point(272, 232);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(87, 50);
-            this.button13.TabIndex = 11;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            this.cmdMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdMinus.FlatAppearance.BorderSize = 0;
+            this.cmdMinus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdMinus.ForeColor = System.Drawing.Color.White;
+            this.cmdMinus.Location = new System.Drawing.Point(276, 338);
+            this.cmdMinus.Name = "cmdMinus";
+            this.cmdMinus.Size = new System.Drawing.Size(87, 50);
+            this.cmdMinus.TabIndex = 17;
+            this.cmdMinus.Text = "-";
+            this.cmdMinus.UseVisualStyleBackColor = false;
+            this.cmdMinus.Click += new System.EventHandler(this.cmdMinus_Click);
             // 
-            // button14
+            // cmd3
             // 
-            this.button14.Location = new System.Drawing.Point(183, 232);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(87, 50);
-            this.button14.TabIndex = 10;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
+            this.cmd3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd3.FlatAppearance.BorderSize = 0;
+            this.cmd3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd3.ForeColor = System.Drawing.Color.White;
+            this.cmd3.Location = new System.Drawing.Point(187, 338);
+            this.cmd3.Name = "cmd3";
+            this.cmd3.Size = new System.Drawing.Size(87, 50);
+            this.cmd3.TabIndex = 4;
+            this.cmd3.Text = "3";
+            this.cmd3.UseVisualStyleBackColor = false;
+            this.cmd3.Click += new System.EventHandler(this.cmd3_Click);
             // 
-            // button15
+            // cmd2
             // 
-            this.button15.Location = new System.Drawing.Point(92, 232);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(87, 50);
-            this.button15.TabIndex = 9;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
+            this.cmd2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd2.FlatAppearance.BorderSize = 0;
+            this.cmd2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmd2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmd2.ForeColor = System.Drawing.Color.White;
+            this.cmd2.Location = new System.Drawing.Point(96, 338);
+            this.cmd2.Name = "cmd2";
+            this.cmd2.Size = new System.Drawing.Size(87, 50);
+            this.cmd2.TabIndex = 3;
+            this.cmd2.Text = "2";
+            this.cmd2.UseVisualStyleBackColor = false;
+            this.cmd2.Click += new System.EventHandler(this.cmd2_Click);
             // 
-            // button16
+            // cdm1
             // 
-            this.button16.Location = new System.Drawing.Point(2, 232);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(87, 50);
-            this.button16.TabIndex = 8;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
+            this.cdm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cdm1.FlatAppearance.BorderSize = 0;
+            this.cdm1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cdm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cdm1.ForeColor = System.Drawing.Color.White;
+            this.cdm1.Location = new System.Drawing.Point(6, 338);
+            this.cdm1.Name = "cdm1";
+            this.cdm1.Size = new System.Drawing.Size(87, 50);
+            this.cdm1.TabIndex = 2;
+            this.cdm1.Text = "1";
+            this.cdm1.UseVisualStyleBackColor = false;
+            this.cdm1.Click += new System.EventHandler(this.cdm1_Click);
+            // 
+            // txtFactWrite
+            // 
+            this.txtFactWrite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtFactWrite.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFactWrite.Enabled = false;
+            this.txtFactWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFactWrite.ForeColor = System.Drawing.Color.White;
+            this.txtFactWrite.Location = new System.Drawing.Point(6, 111);
+            this.txtFactWrite.Name = "txtFactWrite";
+            this.txtFactWrite.ReadOnly = true;
+            this.txtFactWrite.Size = new System.Drawing.Size(357, 31);
+            this.txtFactWrite.TabIndex = 16;
+            this.txtFactWrite.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtFactHistory
+            // 
+            this.txtFactHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.txtFactHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFactHistory.Enabled = false;
+            this.txtFactHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFactHistory.ForeColor = System.Drawing.Color.White;
+            this.txtFactHistory.Location = new System.Drawing.Point(6, 58);
+            this.txtFactHistory.Name = "txtFactHistory";
+            this.txtFactHistory.ReadOnly = true;
+            this.txtFactHistory.Size = new System.Drawing.Size(357, 31);
+            this.txtFactHistory.TabIndex = 17;
+            this.txtFactHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // cmdInvert
+            // 
+            this.cmdInvert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdInvert.FlatAppearance.BorderSize = 0;
+            this.cmdInvert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdInvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdInvert.ForeColor = System.Drawing.Color.White;
+            this.cmdInvert.Location = new System.Drawing.Point(276, 184);
+            this.cmdInvert.Name = "cmdInvert";
+            this.cmdInvert.Size = new System.Drawing.Size(87, 50);
+            this.cmdInvert.TabIndex = 14;
+            this.cmdInvert.Text = "+/-";
+            this.cmdInvert.UseVisualStyleBackColor = false;
+            this.cmdInvert.Click += new System.EventHandler(this.cmdInvert_Click);
+            // 
+            // cmdDel
+            // 
+            this.cmdDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdDel.FlatAppearance.BorderSize = 0;
+            this.cmdDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdDel.ForeColor = System.Drawing.Color.White;
+            this.cmdDel.Location = new System.Drawing.Point(187, 184);
+            this.cmdDel.Name = "cmdDel";
+            this.cmdDel.Size = new System.Drawing.Size(87, 50);
+            this.cmdDel.TabIndex = 13;
+            this.cmdDel.Text = "<==";
+            this.cmdDel.UseVisualStyleBackColor = false;
+            this.cmdDel.Click += new System.EventHandler(this.cmdDel_Click);
+            // 
+            // cmdC
+            // 
+            this.cmdC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdC.FlatAppearance.BorderSize = 0;
+            this.cmdC.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdC.ForeColor = System.Drawing.Color.White;
+            this.cmdC.Location = new System.Drawing.Point(96, 184);
+            this.cmdC.Name = "cmdC";
+            this.cmdC.Size = new System.Drawing.Size(87, 50);
+            this.cmdC.TabIndex = 12;
+            this.cmdC.Text = "C";
+            this.cmdC.UseVisualStyleBackColor = false;
+            this.cmdC.Click += new System.EventHandler(this.cmdC_Click);
+            // 
+            // cmdCE
+            // 
+            this.cmdCE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdCE.FlatAppearance.BorderSize = 0;
+            this.cmdCE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cmdCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdCE.ForeColor = System.Drawing.Color.White;
+            this.cmdCE.Location = new System.Drawing.Point(6, 184);
+            this.cmdCE.Name = "cmdCE";
+            this.cmdCE.Size = new System.Drawing.Size(87, 50);
+            this.cmdCE.TabIndex = 11;
+            this.cmdCE.Text = "CE";
+            this.cmdCE.UseVisualStyleBackColor = false;
+            this.cmdCE.Click += new System.EventHandler(this.cmdCE_Click);
             // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(361, 450);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.ClientSize = new System.Drawing.Size(370, 450);
+            this.Controls.Add(this.cmdInvert);
+            this.Controls.Add(this.cmdDel);
+            this.Controls.Add(this.cmdC);
+            this.Controls.Add(this.cmdCE);
+            this.Controls.Add(this.txtFactHistory);
+            this.Controls.Add(this.txtFactWrite);
+            this.Controls.Add(this.CmdPlus);
+            this.Controls.Add(this.cmdEquals);
+            this.Controls.Add(this.cmdPoint);
+            this.Controls.Add(this.cmd0);
+            this.Controls.Add(this.cmdMinus);
+            this.Controls.Add(this.cmd3);
+            this.Controls.Add(this.cmd2);
+            this.Controls.Add(this.cdm1);
+            this.Controls.Add(this.cmdTimes);
+            this.Controls.Add(this.cmd6);
+            this.Controls.Add(this.cmd5);
+            this.Controls.Add(this.cmd4);
+            this.Controls.Add(this.cmdDivided);
+            this.Controls.Add(this.cmd9);
+            this.Controls.Add(this.cmd8);
+            this.Controls.Add(this.cmd7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormMenu";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button cmd7;
+        private System.Windows.Forms.Button cmd8;
+        private System.Windows.Forms.Button cmd9;
+        private System.Windows.Forms.Button cmdDivided;
+        private System.Windows.Forms.Button cmdTimes;
+        private System.Windows.Forms.Button cmd6;
+        private System.Windows.Forms.Button cmd5;
+        private System.Windows.Forms.Button cmd4;
+        private System.Windows.Forms.Button CmdPlus;
+        private System.Windows.Forms.Button cmdEquals;
+        private System.Windows.Forms.Button cmdPoint;
+        private System.Windows.Forms.Button cmd0;
+        private System.Windows.Forms.Button cmdMinus;
+        private System.Windows.Forms.Button cmd3;
+        private System.Windows.Forms.Button cmd2;
+        private System.Windows.Forms.Button cdm1;
+        private System.Windows.Forms.TextBox txtFactWrite;
+        private System.Windows.Forms.TextBox txtFactHistory;
+        private System.Windows.Forms.Button cmdInvert;
+        private System.Windows.Forms.Button cmdDel;
+        private System.Windows.Forms.Button cmdC;
+        private System.Windows.Forms.Button cmdCE;
     }
 }
 
