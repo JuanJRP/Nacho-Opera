@@ -1,0 +1,6 @@
+C:\Users\myva0\OneDrive\Escritorio\Tareas\Herramientas programacion\operaciones\operaciones\bin\Debug\operaciones.dll
+C:\Users\myva0\OneDrive\Escritorio\Tareas\Herramientas programacion\operaciones\operaciones\bin\Debug\operaciones.pdb
+C:\Users\myva0\OneDrive\Escritorio\Tareas\Herramientas programacion\operaciones\operaciones\obj\Debug\operaciones.csproj.AssemblyReference.cache
+C:\Users\myva0\OneDrive\Escritorio\Tareas\Herramientas programacion\operaciones\operaciones\obj\Debug\operaciones.csproj.CoreCompileInputs.cache
+C:\Users\myva0\OneDrive\Escritorio\Tareas\Herramientas programacion\operaciones\operaciones\obj\Debug\operaciones.dll
+C:\Users\myva0\OneDrive\Escritorio\Tareas\Herramientas programacion\operaciones\operaciones\obj\Debug\operaciones.pdb
