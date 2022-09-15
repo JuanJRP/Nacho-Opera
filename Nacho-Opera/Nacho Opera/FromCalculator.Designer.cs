@@ -45,22 +45,22 @@
             this.cmd3 = new System.Windows.Forms.Button();
             this.cmd2 = new System.Windows.Forms.Button();
             this.cdm1 = new System.Windows.Forms.Button();
-            this.txtFactWrite = new System.Windows.Forms.TextBox();
-            this.txtFactHistory = new System.Windows.Forms.TextBox();
             this.cmdInvert = new System.Windows.Forms.Button();
             this.cmdDel = new System.Windows.Forms.Button();
             this.cmdC = new System.Windows.Forms.Button();
             this.cmdCE = new System.Windows.Forms.Button();
+            this.lblFactWrite = new System.Windows.Forms.Label();
+            this.lblFactHistory = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // cmd7
             // 
-            this.cmd7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd7.BackColor = System.Drawing.Color.Transparent;
             this.cmd7.FlatAppearance.BorderSize = 0;
             this.cmd7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd7.ForeColor = System.Drawing.Color.White;
-            this.cmd7.Location = new System.Drawing.Point(6, 237);
+            this.cmd7.Location = new System.Drawing.Point(7, 216);
             this.cmd7.Name = "cmd7";
             this.cmd7.Size = new System.Drawing.Size(87, 50);
             this.cmd7.TabIndex = 8;
@@ -70,12 +70,12 @@
             // 
             // cmd8
             // 
-            this.cmd8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd8.BackColor = System.Drawing.Color.Transparent;
             this.cmd8.FlatAppearance.BorderSize = 0;
             this.cmd8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd8.ForeColor = System.Drawing.Color.White;
-            this.cmd8.Location = new System.Drawing.Point(96, 237);
+            this.cmd8.Location = new System.Drawing.Point(97, 216);
             this.cmd8.Name = "cmd8";
             this.cmd8.Size = new System.Drawing.Size(87, 50);
             this.cmd8.TabIndex = 9;
@@ -85,12 +85,13 @@
             // 
             // cmd9
             // 
-            this.cmd9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd9.BackColor = System.Drawing.Color.Transparent;
+            this.cmd9.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.cmd9.FlatAppearance.BorderSize = 0;
             this.cmd9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd9.ForeColor = System.Drawing.Color.White;
-            this.cmd9.Location = new System.Drawing.Point(187, 237);
+            this.cmd9.Location = new System.Drawing.Point(188, 216);
             this.cmd9.Name = "cmd9";
             this.cmd9.Size = new System.Drawing.Size(87, 50);
             this.cmd9.TabIndex = 10;
@@ -100,12 +101,12 @@
             // 
             // cmdDivided
             // 
-            this.cmdDivided.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdDivided.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdDivided.FlatAppearance.BorderSize = 0;
             this.cmdDivided.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdDivided.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdDivided.ForeColor = System.Drawing.Color.White;
-            this.cmdDivided.Location = new System.Drawing.Point(276, 237);
+            this.cmdDivided.Location = new System.Drawing.Point(277, 216);
             this.cmdDivided.Name = "cmdDivided";
             this.cmdDivided.Size = new System.Drawing.Size(87, 50);
             this.cmdDivided.TabIndex = 15;
@@ -115,12 +116,12 @@
             // 
             // cmdTimes
             // 
-            this.cmdTimes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdTimes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdTimes.FlatAppearance.BorderSize = 0;
             this.cmdTimes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdTimes.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdTimes.ForeColor = System.Drawing.Color.White;
-            this.cmdTimes.Location = new System.Drawing.Point(276, 287);
+            this.cmdTimes.Location = new System.Drawing.Point(277, 272);
             this.cmdTimes.Name = "cmdTimes";
             this.cmdTimes.Size = new System.Drawing.Size(87, 50);
             this.cmdTimes.TabIndex = 16;
@@ -130,12 +131,12 @@
             // 
             // cmd6
             // 
-            this.cmd6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd6.BackColor = System.Drawing.Color.Transparent;
             this.cmd6.FlatAppearance.BorderSize = 0;
             this.cmd6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd6.ForeColor = System.Drawing.Color.White;
-            this.cmd6.Location = new System.Drawing.Point(187, 287);
+            this.cmd6.Location = new System.Drawing.Point(188, 272);
             this.cmd6.Name = "cmd6";
             this.cmd6.Size = new System.Drawing.Size(87, 50);
             this.cmd6.TabIndex = 7;
@@ -145,12 +146,12 @@
             // 
             // cmd5
             // 
-            this.cmd5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd5.BackColor = System.Drawing.Color.Transparent;
             this.cmd5.FlatAppearance.BorderSize = 0;
             this.cmd5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd5.ForeColor = System.Drawing.Color.White;
-            this.cmd5.Location = new System.Drawing.Point(96, 287);
+            this.cmd5.Location = new System.Drawing.Point(97, 272);
             this.cmd5.Name = "cmd5";
             this.cmd5.Size = new System.Drawing.Size(87, 50);
             this.cmd5.TabIndex = 6;
@@ -160,12 +161,12 @@
             // 
             // cmd4
             // 
-            this.cmd4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd4.BackColor = System.Drawing.Color.Transparent;
             this.cmd4.FlatAppearance.BorderSize = 0;
             this.cmd4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd4.ForeColor = System.Drawing.Color.White;
-            this.cmd4.Location = new System.Drawing.Point(6, 287);
+            this.cmd4.Location = new System.Drawing.Point(7, 272);
             this.cmd4.Name = "cmd4";
             this.cmd4.Size = new System.Drawing.Size(87, 50);
             this.cmd4.TabIndex = 5;
@@ -175,12 +176,12 @@
             // 
             // CmdPlus
             // 
-            this.CmdPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.CmdPlus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.CmdPlus.FlatAppearance.BorderSize = 0;
             this.CmdPlus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CmdPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmdPlus.ForeColor = System.Drawing.Color.White;
-            this.CmdPlus.Location = new System.Drawing.Point(276, 388);
+            this.CmdPlus.Location = new System.Drawing.Point(188, 384);
             this.CmdPlus.Name = "CmdPlus";
             this.CmdPlus.Size = new System.Drawing.Size(87, 50);
             this.CmdPlus.TabIndex = 18;
@@ -190,12 +191,12 @@
             // 
             // cmdEquals
             // 
-            this.cmdEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdEquals.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.cmdEquals.FlatAppearance.BorderSize = 0;
             this.cmdEquals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdEquals.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdEquals.ForeColor = System.Drawing.Color.White;
-            this.cmdEquals.Location = new System.Drawing.Point(187, 388);
+            this.cmdEquals.Location = new System.Drawing.Point(277, 384);
             this.cmdEquals.Name = "cmdEquals";
             this.cmdEquals.Size = new System.Drawing.Size(87, 50);
             this.cmdEquals.TabIndex = 19;
@@ -205,12 +206,12 @@
             // 
             // cmdPoint
             // 
-            this.cmdPoint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdPoint.BackColor = System.Drawing.Color.Transparent;
             this.cmdPoint.FlatAppearance.BorderSize = 0;
             this.cmdPoint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdPoint.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdPoint.ForeColor = System.Drawing.Color.White;
-            this.cmdPoint.Location = new System.Drawing.Point(96, 388);
+            this.cmdPoint.Location = new System.Drawing.Point(97, 384);
             this.cmdPoint.Name = "cmdPoint";
             this.cmdPoint.Size = new System.Drawing.Size(87, 50);
             this.cmdPoint.TabIndex = 20;
@@ -220,12 +221,12 @@
             // 
             // cmd0
             // 
-            this.cmd0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd0.BackColor = System.Drawing.Color.Transparent;
             this.cmd0.FlatAppearance.BorderSize = 0;
             this.cmd0.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd0.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd0.ForeColor = System.Drawing.Color.White;
-            this.cmd0.Location = new System.Drawing.Point(6, 388);
+            this.cmd0.Location = new System.Drawing.Point(7, 384);
             this.cmd0.Name = "cmd0";
             this.cmd0.Size = new System.Drawing.Size(87, 50);
             this.cmd0.TabIndex = 1;
@@ -235,12 +236,12 @@
             // 
             // cmdMinus
             // 
-            this.cmdMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdMinus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdMinus.FlatAppearance.BorderSize = 0;
             this.cmdMinus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdMinus.ForeColor = System.Drawing.Color.White;
-            this.cmdMinus.Location = new System.Drawing.Point(276, 338);
+            this.cmdMinus.Location = new System.Drawing.Point(277, 328);
             this.cmdMinus.Name = "cmdMinus";
             this.cmdMinus.Size = new System.Drawing.Size(87, 50);
             this.cmdMinus.TabIndex = 17;
@@ -250,12 +251,12 @@
             // 
             // cmd3
             // 
-            this.cmd3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd3.BackColor = System.Drawing.Color.Transparent;
             this.cmd3.FlatAppearance.BorderSize = 0;
             this.cmd3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd3.ForeColor = System.Drawing.Color.White;
-            this.cmd3.Location = new System.Drawing.Point(187, 338);
+            this.cmd3.Location = new System.Drawing.Point(188, 328);
             this.cmd3.Name = "cmd3";
             this.cmd3.Size = new System.Drawing.Size(87, 50);
             this.cmd3.TabIndex = 4;
@@ -265,12 +266,12 @@
             // 
             // cmd2
             // 
-            this.cmd2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmd2.BackColor = System.Drawing.Color.Transparent;
             this.cmd2.FlatAppearance.BorderSize = 0;
             this.cmd2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmd2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmd2.ForeColor = System.Drawing.Color.White;
-            this.cmd2.Location = new System.Drawing.Point(96, 338);
+            this.cmd2.Location = new System.Drawing.Point(97, 328);
             this.cmd2.Name = "cmd2";
             this.cmd2.Size = new System.Drawing.Size(87, 50);
             this.cmd2.TabIndex = 3;
@@ -280,12 +281,12 @@
             // 
             // cdm1
             // 
-            this.cdm1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cdm1.BackColor = System.Drawing.Color.Transparent;
             this.cdm1.FlatAppearance.BorderSize = 0;
             this.cdm1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cdm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cdm1.ForeColor = System.Drawing.Color.White;
-            this.cdm1.Location = new System.Drawing.Point(6, 338);
+            this.cdm1.Location = new System.Drawing.Point(7, 328);
             this.cdm1.Name = "cdm1";
             this.cdm1.Size = new System.Drawing.Size(87, 50);
             this.cdm1.TabIndex = 2;
@@ -293,42 +294,14 @@
             this.cdm1.UseVisualStyleBackColor = false;
             this.cdm1.Click += new System.EventHandler(this.cdm1_Click);
             // 
-            // txtFactWrite
-            // 
-            this.txtFactWrite.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.txtFactWrite.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtFactWrite.Enabled = false;
-            this.txtFactWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFactWrite.ForeColor = System.Drawing.Color.White;
-            this.txtFactWrite.Location = new System.Drawing.Point(6, 84);
-            this.txtFactWrite.Name = "txtFactWrite";
-            this.txtFactWrite.ReadOnly = true;
-            this.txtFactWrite.Size = new System.Drawing.Size(357, 31);
-            this.txtFactWrite.TabIndex = 16;
-            this.txtFactWrite.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // txtFactHistory
-            // 
-            this.txtFactHistory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-            this.txtFactHistory.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtFactHistory.Enabled = false;
-            this.txtFactHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFactHistory.ForeColor = System.Drawing.Color.White;
-            this.txtFactHistory.Location = new System.Drawing.Point(6, 31);
-            this.txtFactHistory.Name = "txtFactHistory";
-            this.txtFactHistory.ReadOnly = true;
-            this.txtFactHistory.Size = new System.Drawing.Size(357, 17);
-            this.txtFactHistory.TabIndex = 17;
-            this.txtFactHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // cmdInvert
             // 
-            this.cmdInvert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdInvert.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdInvert.FlatAppearance.BorderSize = 0;
             this.cmdInvert.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdInvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdInvert.ForeColor = System.Drawing.Color.White;
-            this.cmdInvert.Location = new System.Drawing.Point(276, 184);
+            this.cmdInvert.Location = new System.Drawing.Point(277, 160);
             this.cmdInvert.Name = "cmdInvert";
             this.cmdInvert.Size = new System.Drawing.Size(87, 50);
             this.cmdInvert.TabIndex = 14;
@@ -338,12 +311,12 @@
             // 
             // cmdDel
             // 
-            this.cmdDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdDel.FlatAppearance.BorderSize = 0;
             this.cmdDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdDel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdDel.ForeColor = System.Drawing.Color.White;
-            this.cmdDel.Location = new System.Drawing.Point(187, 184);
+            this.cmdDel.Location = new System.Drawing.Point(188, 160);
             this.cmdDel.Name = "cmdDel";
             this.cmdDel.Size = new System.Drawing.Size(87, 50);
             this.cmdDel.TabIndex = 13;
@@ -353,12 +326,12 @@
             // 
             // cmdC
             // 
-            this.cmdC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdC.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdC.FlatAppearance.BorderSize = 0;
             this.cmdC.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdC.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdC.ForeColor = System.Drawing.Color.White;
-            this.cmdC.Location = new System.Drawing.Point(96, 184);
+            this.cmdC.Location = new System.Drawing.Point(97, 160);
             this.cmdC.Name = "cmdC";
             this.cmdC.Size = new System.Drawing.Size(87, 50);
             this.cmdC.TabIndex = 12;
@@ -368,12 +341,12 @@
             // 
             // cmdCE
             // 
-            this.cmdCE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.cmdCE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.cmdCE.FlatAppearance.BorderSize = 0;
             this.cmdCE.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.cmdCE.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmdCE.ForeColor = System.Drawing.Color.White;
-            this.cmdCE.Location = new System.Drawing.Point(6, 184);
+            this.cmdCE.Location = new System.Drawing.Point(7, 160);
             this.cmdCE.Name = "cmdCE";
             this.cmdCE.Size = new System.Drawing.Size(87, 50);
             this.cmdCE.TabIndex = 11;
@@ -381,18 +354,44 @@
             this.cmdCE.UseVisualStyleBackColor = false;
             this.cmdCE.Click += new System.EventHandler(this.cmdCE_Click);
             // 
+            // lblFactWrite
+            // 
+            this.lblFactWrite.AutoSize = true;
+            this.lblFactWrite.BackColor = System.Drawing.Color.Transparent;
+            this.lblFactWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFactWrite.ForeColor = System.Drawing.Color.White;
+            this.lblFactWrite.Location = new System.Drawing.Point(9, 105);
+            this.lblFactWrite.Name = "lblFactWrite";
+            this.lblFactWrite.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblFactWrite.Size = new System.Drawing.Size(0, 31);
+            this.lblFactWrite.TabIndex = 21;
+            this.lblFactWrite.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // lblFactHistory
+            // 
+            this.lblFactHistory.AutoSize = true;
+            this.lblFactHistory.BackColor = System.Drawing.Color.Transparent;
+            this.lblFactHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFactHistory.ForeColor = System.Drawing.Color.White;
+            this.lblFactHistory.Location = new System.Drawing.Point(12, 52);
+            this.lblFactHistory.Name = "lblFactHistory";
+            this.lblFactHistory.Size = new System.Drawing.Size(0, 18);
+            this.lblFactHistory.TabIndex = 22;
+            this.lblFactHistory.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
             // FormMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(370, 450);
+            this.Controls.Add(this.lblFactHistory);
+            this.Controls.Add(this.lblFactWrite);
             this.Controls.Add(this.cmdInvert);
             this.Controls.Add(this.cmdDel);
             this.Controls.Add(this.cmdC);
             this.Controls.Add(this.cmdCE);
-            this.Controls.Add(this.txtFactHistory);
-            this.Controls.Add(this.txtFactWrite);
             this.Controls.Add(this.CmdPlus);
             this.Controls.Add(this.cmdEquals);
             this.Controls.Add(this.cmdPoint);
@@ -439,12 +438,12 @@
         private System.Windows.Forms.Button cmd3;
         private System.Windows.Forms.Button cmd2;
         private System.Windows.Forms.Button cdm1;
-        private System.Windows.Forms.TextBox txtFactWrite;
-        private System.Windows.Forms.TextBox txtFactHistory;
         private System.Windows.Forms.Button cmdInvert;
         private System.Windows.Forms.Button cmdDel;
         private System.Windows.Forms.Button cmdC;
         private System.Windows.Forms.Button cmdCE;
+        private System.Windows.Forms.Label lblFactWrite;
+        private System.Windows.Forms.Label lblFactHistory;
     }
 }
 

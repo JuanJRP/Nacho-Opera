@@ -30,16 +30,16 @@ namespace Nacho_Opera
                 Count += 1;
                 if (equals == 1)
                 {
-                    txtFactHistory.Clear();
-                    txtFactWrite.Clear();
+                    lblFactHistory.Text = "";
+                    lblFactWrite.Text = "";
                     fact1 = 0;
                     fact2 = 0;
                     equals = 0;
-                    txtFactWrite.Text += Num;
+                    lblFactWrite.Text += Num;
                 }
                 else
                 {
-                    txtFactWrite.Text += Num;
+                    lblFactWrite.Text += Num;
                     equals = 0;
                 }
             }
@@ -47,11 +47,11 @@ namespace Nacho_Opera
         public void Operation(string tipe)
         {
             Count = 0;
-            if (txtFactWrite.Text != "")
+            if (lblFactWrite.Text != "")
             {
-                fact1 = Convert.ToDouble(txtFactWrite.Text);
-                txtFactHistory.Text = txtFactWrite.Text + " " + tipe;
-                txtFactWrite.Clear();
+                fact1 = Convert.ToDouble(lblFactWrite.Text);
+                lblFactHistory.Text = lblFactWrite.Text + " " + tipe;
+                lblFactWrite.Text = "";
                 operation = tipe;
             }
         }
@@ -115,50 +115,50 @@ namespace Nacho_Opera
         }
         private void cmdPoint_Click(object sender, EventArgs e)
         {
-            txtFactWrite.Text += ",";
+            lblFactWrite.Text += ",";
         }
         /*---------------------------------Operations------------------------------------------------------------------------------*/
 
         private void cmdEquals_Click(object sender, EventArgs e)
         {
-            if (equals == 0 && txtFactWrite.Text != "")
+            if (equals == 0 && lblFactWrite.Text != "")
             {
-                fact2 = Convert.ToDouble(txtFactWrite.Text);
-                txtFactHistory.Text += " " + txtFactWrite.Text;
+                fact2 = Convert.ToDouble(lblFactWrite.Text);
+                lblFactHistory.Text += " " + lblFactWrite.Text;
 
                 switch (operation)
                 {
                     case "+":
                         result = operacion.Sumar(fact1, fact2);
-                        txtFactWrite.Text = "= " + Convert.ToString(result);
+                        lblFactWrite.Text = "= " + Convert.ToString(result);
                         break;
                     case "-":
                         result = operacion.Restar(fact1, fact2);
-                        txtFactWrite.Text = "= " + Convert.ToString(result);
+                        lblFactWrite.Text = "= " + Convert.ToString(result);
                         break;
                     case "x":
                         if (CE != 1)
                         {
                             result = operacion.Multiplicar(fact1, fact2);
-                            txtFactWrite.Text = "= " + Convert.ToString(result);
+                            lblFactWrite.Text = "= " + Convert.ToString(result);
                         }
                         else
                         {
                             result = fact2;
-                            txtFactWrite.Text = "= " + Convert.ToString(result);
+                            lblFactWrite.Text = "= " + Convert.ToString(result);
                         }
                         
                         break;
                     case "/":
                         if (fact2 == 0)
                         {
-                            txtFactWrite.Text = "Sintax Error";
-                            txtFactHistory.Clear();
+                            lblFactWrite.Text = "Sintax Error";
+                            lblFactHistory.Text = "";
                         }
                         else
                         {
                             result = operacion.Dividir(fact1, fact2);
-                            txtFactWrite.Text = "= " + Convert.ToString(result);
+                            lblFactWrite.Text = "= " + Convert.ToString(result);
                         }
                         break;
                 }
@@ -190,7 +190,7 @@ namespace Nacho_Opera
         {
             if (equals == 0)
             {
-                txtFactWrite.Clear();
+                lblFactWrite.Text = "";
                 fact2 = 0;
                 CE = 1;
                 Count = 0;
@@ -199,17 +199,17 @@ namespace Nacho_Opera
 
         private void cmdDel_Click(object sender, EventArgs e)
         {
-            if (txtFactWrite.Text.Length > 1)
+            if (lblFactWrite.Text.Length > 1)
             {
                 if (equals == 0)
                 {
-                    txtFactWrite.Text = txtFactWrite.Text.Substring(0, txtFactWrite.Text.Length - 1);
+                    lblFactWrite.Text = lblFactWrite.Text.Substring(0, lblFactWrite.Text.Length - 1);
                     Count -= 1;
                 }
             }
             else
             {
-                txtFactWrite.Clear();
+                lblFactWrite.Text = "";
             }
         }
 
@@ -218,14 +218,14 @@ namespace Nacho_Opera
             if (equals != 0)
             {
                 result = result * (-1);
-                txtFactWrite.Text = "= " + Convert.ToString(result);
+                lblFactWrite.Text = "= " + Convert.ToString(result);
             }            
         }
 
         private void cmdC_Click(object sender, EventArgs e)
         {
-            txtFactHistory.Clear();
-            txtFactWrite.Clear();
+            lblFactHistory.Text = "";
+            lblFactWrite.Text = "";
             fact1 = 0;
             fact2 = 0;
             result = 0;

@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nacho Opera.exe" size="45992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nacho Opera.exe" size="215976">
       <assemblyIdentity name="Nacho Opera" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DKtOiDADZiJh/Lc01w6f3MI/CYCmKKKyHofkpP704ek=</dsig:DigestValue>
+        <dsig:DigestValue>55uP4osOKj7Askdv7Ohw4FbtNGuTsJtoI2jsFrCGoh4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
